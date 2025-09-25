@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import NavBar from './components/NavBar';
 
 const Logout = () => {
   const { logout } = useAuth();
@@ -26,6 +27,7 @@ function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
+        <NavBar />
         <Routes>
           <Route
             path="/"
