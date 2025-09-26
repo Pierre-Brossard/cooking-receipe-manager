@@ -1,2 +1,30 @@
 export const ACCESS_TOKEN: string = 'access';
 export const REFRESH_TOKEN: string = 'refresh';
+
+export const ingredients = [
+  "huile d'olive",
+  'sel',
+  'poivre noir',
+  'ail',
+  'oignon',
+  'tomates',
+  'poulet',
+  'œufs',
+  'lait',
+  'beurre',
+  'farine',
+  'sucre',
+  'levure chimique',
+  'pâtes',
+  'riz',
+  'pommes de terre',
+  'carottes',
+  'poivrons',
+  'courgettes',
+  'fromage râpé',
+  'crème fraîche',
+  'herbes de Provence',
+  'persil',
+  'basilic',
+  'jus de citron',
+];
